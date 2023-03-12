@@ -1,0 +1,107 @@
+[
+  {
+    "id": "1",
+    "name": "BMW X3",
+    "floorPrice": 248000,
+    "monthly": 2303,
+    "variants": 4,
+    "vender": {
+      "name": "Perfomance Motors",
+      "logo": "/images/venders/vender1.png"
+    },
+    "isWithCOE": true,
+    "vehicleType": "Coupe",
+    "status": "old",
+    "image": "/images/car1.png"
+  },
+  {
+    "id": "2",
+    "name": "BMW X3",
+    "floorPrice": 248000,
+    "monthly": 2303,
+    "variants": 4,
+    "vender": {
+      "name": "Perfomance Motors",
+      "logo": "/images/venders/vender1.png"
+    },
+    "isWithCOE": true,
+    "vehicleType": "Coupe",
+    "status": "old",
+    "image": "/images/car2.png"
+  },
+  {
+    "id": "3",
+    "name": "BMW X3",
+    "floorPrice": 248000,
+    "monthly": 2303,
+    "variants": 4,
+    "vender": {
+      "name": "Perfomance Motors",
+      "logo": "/images/venders/vender1.png"
+    },
+    "isWithCOE": true,
+    "vehicleType": "Coupe",
+    "status": "old",
+    "image": "/images/car3.png"
+  },
+  {
+    "id": "4",
+    "name": "BMW X3",
+    "floorPrice": 248000,
+    "monthly": 2303,
+    "variants": 4,
+    "vender": {
+      "name": "Perfomance Motors",
+      "logo": "/images/venders/vender1.png"
+    },
+    "isWithCOE": true,
+    "vehicleType": "Coupe",
+    "status": "old",
+    "image": "/images/car4.png"
+  },
+  {
+    "id": "5",
+    "name": "BMW X3",
+    "floorPrice": 248000,
+    "monthly": 2303,
+    "variants": 4,
+    "vender": {
+      "name": "Perfomance Motors",
+      "logo": "/images/venders/vender1.png"
+    },
+    "isWithCOE": true,
+    "vehicleType": "Coupe",
+    "status": "old",
+    "image": "/images/car5.png"
+  },
+  {
+    "id": "6",
+    "name": "BMW X3",
+    "floorPrice": 248000,
+    "monthly": 2303,
+    "variants": 4,
+    "vender": {
+      "name": "Perfomance Motors",
+      "logo": "/images/venders/vender1.png"
+    },
+    "isWithCOE": true,
+    "vehicleType": "Coupe",
+    "status": "old",
+    "image": "/images/car6.png"
+  },
+  {
+    "id": "7",
+    "name": "BMW X3",
+    "floorPrice": 248000,
+    "monthly": 2303,
+    "variants": 4,
+    "vender": {
+      "name": "Perfomance Motors",
+      "logo": "/images/venders/vender1.png"
+    },
+    "isWithCOE": true,
+    "vehicleType": "Coupe",
+    "status": "old",
+    "image": "/images/car7.png"
+  }
+]

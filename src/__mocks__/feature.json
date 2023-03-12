@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1",
+    "name": "The Palace",
+    "image": "/images/the-palace.png",
+    "price": 2000,
+    "type": "Duplex",
+    "description": "Lekki,phase 2"
+  },
+  {
+    "id": "2",
+    "name": "IVY RORY",
+    "image": "/images/ivy-rory.png",
+    "price": 2000,
+    "type": "Duplex",
+    "description": "Lekki,phase 2"
+  },
+  {
+    "id": "3",
+    "name": "REXONA",
+    "image": "/images/rexona.png",
+    "price": 2300,
+    "type": "Duplex",
+    "description": "Lekki,phase 2"
+  },
+  {
+    "id": "4",
+    "name": "The Palace",
+    "image": "/images/the-palace.png",
+    "price": 1245,
+    "type": "Duplex",
+    "description": "Lekki,phase 2"
+  },
+  {
+    "id": "5",
+    "name": "IVY RORY",
+    "image": "/images/ivy-rory.png",
+    "price": 2000,
+    "type": "Duplex",
+    "description": "Lekki,phase 2"
+  }
+]

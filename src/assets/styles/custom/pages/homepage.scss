@@ -1,0 +1,165 @@
+.home-circle-1 {
+  background-color: rgba(2, 195, 252, 0.05);
+  width: 484px;
+  height: 484px;
+  right: 0;
+  transform: translate(50%, 30%);
+}
+.home-circle-2 {
+  background-color: rgba(237, 0, 108, 0.15);
+  width: 602px;
+  height: 602px;
+  bottom: 0;
+  left: 0;
+  transform: translate(-50%, 50%);
+}
+.custom-home-text {
+  background: linear-gradient(90deg, #22cdff -4.42%, #8797ff 30.71%, #e586ff 56.49%, #ff6aae 77.12%, #f4ff77 106.33%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  line-height: 86.4px;
+}
+.banner-button {
+  &:hover {
+    .text-banner-button {
+      background: #fff;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+}
+.text-banner-button {
+  background: linear-gradient(90deg, #22cdff -4.42%, #8797ff 30.71%, #e586ff 56.49%, #ff6aae 77.12%, #f4ff77 106.33%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#banner-color-text-1 {
+  animation: spin1 2.5s linear infinite;
+}
+@keyframes spin1 {
+  0% {
+    opacity: 1;
+  }
+  10% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+#banner-color-text-2 {
+  animation: spin2 2.5s linear infinite;
+}
+@keyframes spin2 {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+#banner-color-text-3 {
+  animation: spin3 2.5s linear infinite;
+}
+@keyframes spin3 {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.play-circle {
+  background: rgba(30, 30, 30, 0.25);
+  backdrop-filter: blur(10px);
+  width: 109px;
+  height: 109px;
+}
+.play-triangle {
+  width: 0;
+  height: 0;
+  border-top: 25px solid transparent;
+  border-bottom: 25px solid transparent;
+  border-left: 39px solid #dadada;
+  margin-left: 10px;
+}

@@ -1,0 +1,114 @@
+$color-primary: #2879fd;
+$gray-primary: rgb(138, 147, 155);
+$base: 0.6rem;
+$size: 10px;
+$speed: 3s;
+$peakopacity:0.7;
+
+.dark {
+  .header-logo,
+  .header-appicon {
+    path {
+      fill: #fff;
+    }
+  }
+  .current {
+    color: #fff;
+    :hover {
+      color: $color-primary;
+    }
+  }
+}
+.btn-mobile{
+  width:100%;
+  height:50px;
+  position:absolute;
+  right:0;
+  bottom:10%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-icon-normal{
+  width:40px;
+  height:40px;
+  position:absolute;
+  top:0%;
+  right:0;
+  &:before{
+    position: absolute;
+    content: '';
+    display: block;
+    width: 30px;
+    height: 20px;
+    z-index: 20;
+    top: 0;
+    left: 0;
+    border-top: 2px solid $color-primary;
+    border-bottom: 2px solid $color-primary;
+    transition: border-width 100ms 500ms ease, 
+                top 100ms 600ms cubic-bezier(0.23, 1, 0.32, 1),
+                height 100ms 600ms cubic-bezier(0.23, 1, 0.32, 1), 
+                background-color 200ms ease,
+                transform 200ms cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  &:after{
+    position: absolute;
+    content: '';
+    display: block;
+    width: 22px;
+    height: 2px;
+    z-index: 20;
+    top: 10px;
+    left:0px;
+    background-color: $color-primary;
+    margin-top: -1px;
+    transition: width 100ms 650ms ease, 
+              right 100ms 650ms ease,
+              margin-top 100ms ease, 
+              transform 200ms cubic-bezier(0.23, 1, 0.32, 1);
+  }
+}
+.menu-icon-active{
+  width:40px;
+  height:40px;
+  position:absolute;
+  top:0%;
+  right:0%;
+  &:before{
+    position: absolute;
+    content: '';
+    display: block;
+    z-index: 20;
+    width: 30px;
+    height: 2px;
+    top:10px;
+    transform: rotate(45deg);
+    background-color: $color-primary;
+    border-width: 0;
+    transition: border-width 100ms 340ms ease, 
+                top 100ms 300ms cubic-bezier(0.23, 1, 0.32, 1),
+                height 100ms 300ms cubic-bezier(0.23, 1, 0.32, 1), 
+                background-color 200ms 500ms ease,
+                transform 200ms 700ms cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  &:after{
+    position: absolute;
+    content: '';
+    display: block;
+    height: 2px;
+    z-index: 20;
+    width: 30px;
+    margin-top: 0;
+    background-color: $color-primary;
+    border-width: 0;
+    right: 10px;
+    top:10px;
+    transform: rotate(-45deg);
+    transition: width 100ms ease,
+                right 100ms ease,  
+                margin-top 100ms 500ms ease, 
+                transform 200ms 700ms cubic-bezier(0.23, 1, 0.32, 1);
+  }
+}
