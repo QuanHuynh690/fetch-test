@@ -142,7 +142,7 @@ const ListCars: React.FC<ListCarsProps> = ({ cars }) => {
                   leaveFrom="opacity-100 translate-y-0"
                   leaveTo="opacity-0 translate-y-1"
                 >
-                  <Popover.Panel className="absolute z-10  w-full mt-3 max-w-sm transform md:px-4 sm:px-0 lg:max-w-3xl">
+                  <Popover.Panel className="absolute z-10 md:w-[500px] w-full mt-3 max-w-sm transform md:px-4 sm:px-0 lg:max-w-3xl">
                     <div className="overflow-hidden rounded-[15px] shadow-lg ring-1 ring-black ring-opacity-5">
                       <div className="bg-white p-4">
                         <p className="font-semibold">Price Range</p>
@@ -293,7 +293,7 @@ const ListCars: React.FC<ListCarsProps> = ({ cars }) => {
       <Button
         title="View more new cars"
         variant="secondary"
-        className="mt-6 w-[194px] h-10 md:mr-0 mr-4 self-end"
+        className="mt-6 w-[194px] h-10 md:mr-0 mr-4 self-end md:self-center"
       />
     </section>
   );
